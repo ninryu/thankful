@@ -21,7 +21,7 @@ body {
 }
 
 #title {
-	margin: 15px 0 15px 0;
+	margin: 50px 0 15px 0;
 
 	font:bold 4vw 'Roboto Condensed', sans-serif;
 	color: var(--main-dark-color);
@@ -75,16 +75,16 @@ body {
 }
 
 .linkblock {
-	width: 25%;
+	width: 20%;
 
 	display: flex;
 
-	margin: 15px 15px 15px 15px;
+	margin: 130px 15px 15px 15px;
 }
 
 .linkblock .image {
-	width: 6.5vw;
-	height: 13vw;
+	width: 7.7vw;
+	height: 14vw;
 
 	object-fit: cover;
 	pointer-events: none;
@@ -100,6 +100,23 @@ body {
 a {
 	font: 0.8vw 'Roboto Condensed', sans-serif;
 	color: var(--main-dark-color);
+
+	text-decoration: none;
+	transition: .1s ease-in-out !important
+}
+
+a:hover {
+	color: var(--main-hover-color);
+	transition: .1s ease-in-out !important
+}
+
+ul {
+	list-style-type: none;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding-left: 0;
+}
+
 
 	text-decoration: none;
 	transition: .1s ease-in-out !important
